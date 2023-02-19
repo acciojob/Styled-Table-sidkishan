@@ -1,1 +1,15 @@
-/* your code */
+table{
+	border-spacing:0;
+	border:2px solid blue;
+	border-radius:5px;
+	width:90%;
+	
+}
+th{
+	text-align:left;
+	background-color:blue;
+	color:white;
+}
+tbody :nth-of-type(2n){
+	background-color: grey;
+}
